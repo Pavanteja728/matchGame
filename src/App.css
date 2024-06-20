@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navCont {
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navLogo {
+  height: 10vh;
+  margin-top: 10px;
+}
+.navPara1 {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.spans {
+  color: #fec653;
+}
+.navTimer {
+  height: 4vh;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+
+.navPara2 {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #fec653;
+}
+.navSec {
+  display: flex;
+}
+.cardCont1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.unis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+li {
+  list-style-type: none;
+}
+
+.tabButton {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-right: 35px;
+}
+.imgButton {
+  border: none;
+  background-color: transparent;
+}
+
+.thumbImg {
+  height: 40vh;
+}
+.unis2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+.result {
+}
+
+.cardCont2 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  height: 770px;
+  width: 604px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy {
+  height: 50vh;
+  margin-top: 120px;
+}
+.scoreHead {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+}
+.scoreHead2 {
+  font-family: 'Roboto';
+  font-size: 27px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 0;
+}
+.reset {
+  height: 40px;
+  width: 140px;
+  background-color: #cf60c8;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resets {
+  height: 4vh;
+  margin-right: 7px;
+}
+.border-line {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
